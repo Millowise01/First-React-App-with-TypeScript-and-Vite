@@ -1,10 +1,11 @@
     import React from 'react';
+    import './MyComponent.css'; // Import the CSS file
 
     const MyComponent: React.FC = () => {
       return (
-        <div>
+        <div className="my-component">
           <h1>Hello from MyComponent!</h1>
-          <p>This my first paragraph of text within my component.</p>
+          <p>This is my paragraph of text within my component.</p>
         </div>
       );
     };
